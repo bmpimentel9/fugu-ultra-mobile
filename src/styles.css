@@ -19,6 +19,13 @@
   box-sizing: border-box;
 }
 
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
 html {
   min-width: 320px;
   background: var(--bg);
@@ -34,6 +41,7 @@ body {
     linear-gradient(180deg, #06111f 0%, #0a1322 52%, #05070d 100%);
   color: var(--text);
   overflow-x: hidden;
+  overflow-wrap: anywhere;
 }
 
 body::before {
@@ -337,6 +345,17 @@ p {
   margin: 5px 0;
   color: var(--soft);
   font-size: 0.78rem;
+}
+
+.footer a {
+  color: #d5c6ff;
+  text-decoration: none;
+}
+
+.footer a:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
 @media (min-width: 540px) {

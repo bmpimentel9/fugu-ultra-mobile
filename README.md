@@ -4,9 +4,11 @@ Página 100% mobile-first em PT-BR sobre a história do modelo Sakana Fugu Ultra
 
 ## Fontes usadas
 
-- Sakana AI: https://sakana.ai/fugu/
-- Sakana AI release: https://sakana.ai/fugu-release/
+- Sakana Fugu: https://sakana.ai/fugu/
+- Release oficial: https://sakana.ai/fugu-release/
 - OpenRouter: https://openrouter.ai/sakana/fugu-ultra
+- Corporate Info: https://sakana.ai/company-info/
+- Technical report: https://arxiv.org/abs/2606.21228
 
 ## Rodar local
 
