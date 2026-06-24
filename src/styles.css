@@ -181,6 +181,36 @@ p {
   color: var(--text);
 }
 
+.author-card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 18px;
+  padding: 13px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.author-card span,
+.signature__box span {
+  display: block;
+  color: var(--soft);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.author-card strong,
+.signature__box strong {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
 .hero__chips {
   display: flex;
   flex-wrap: wrap;
@@ -216,6 +246,12 @@ p {
 .thesis {
   background:
     linear-gradient(145deg, rgba(97, 244, 255, 0.13), rgba(255, 255, 255, 0.06));
+}
+
+.executive-take {
+  border-color: rgba(200, 255, 98, 0.18);
+  background:
+    linear-gradient(145deg, rgba(200, 255, 98, 0.12), rgba(255, 255, 255, 0.055));
 }
 
 .timeline {
@@ -334,6 +370,40 @@ p {
   border-color: rgba(97, 244, 255, 0.22);
   background:
     linear-gradient(145deg, rgba(97, 244, 255, 0.16), rgba(163, 119, 255, 0.09));
+}
+
+.signature {
+  background:
+    linear-gradient(145deg, rgba(163, 119, 255, 0.16), rgba(255, 255, 255, 0.055));
+}
+
+.signature__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.signature__box a {
+  flex: 0 0 auto;
+  padding: 10px 12px;
+  border: 1px solid rgba(97, 244, 255, 0.24);
+  border-radius: 999px;
+  color: #d9fbff;
+  background: rgba(97, 244, 255, 0.09);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.signature__box a:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
 }
 
 .footer {
