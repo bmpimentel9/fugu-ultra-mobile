@@ -238,9 +238,9 @@ p {
   margin-bottom: 14px;
   padding: 7px 10px;
   background: rgba(163, 119, 255, 0.14);
-  color: #d5c6ff;
-  font-size: 11px;
-  letter-spacing: 0.12em;
+  color: #d8ccff;
+  font-size: 11.5px;
+  letter-spacing: 0.11em;
 }
 
 .thesis {
@@ -389,12 +389,16 @@ p {
 
 .signature__box a {
   flex: 0 0 auto;
-  padding: 10px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 16px;
   border: 1px solid rgba(97, 244, 255, 0.24);
   border-radius: 999px;
   color: #d9fbff;
   background: rgba(97, 244, 255, 0.09);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
@@ -418,6 +422,8 @@ p {
 }
 
 .footer a {
+  display: inline-block;
+  padding: 6px 4px;
   color: #d5c6ff;
   text-decoration: none;
 }
